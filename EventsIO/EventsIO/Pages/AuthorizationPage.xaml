@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventsIO.Pages.AuthorizationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Entry Placeholder="Login"/>
+                <Entry Placeholder="Password"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button Text="SIGN IN"
+                        Background="Black"
+                        WidthRequest="100"/>
+                <Button Text="SIGN UP"
+                        Background="Gray"
+                        WidthRequest="50"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
